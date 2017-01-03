@@ -38,11 +38,11 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 #takes the variable current_line and sets its value to 1 + 1
-current_line = current_line + 1
+current_line += 1
 #calls the function print_a_line and gives it the new variable plus the second line of the file
 print_a_line(current_line, current_file)
 
 #takes the variable current_line and sets its value to 2 + 1
-current_line = current_line + 1
+current_line += 1
 #calls the function print_a_line and gives it the new variable plus the third line of the file
 print_a_line(current_line, current_file)
